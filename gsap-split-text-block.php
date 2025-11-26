@@ -4,7 +4,7 @@
  * Plugin Name: GSAP Split Text Block
  * Description: Blocco wrapper per animazioni split text con GSAP e Split-Type
  * Version: 1.0.0
- * Author: Il tuo nome
+ * Author: anto@alt.srl
  * Text Domain: gsap-split-block
  */
 
