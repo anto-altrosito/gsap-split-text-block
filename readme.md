@@ -37,18 +37,17 @@ wp-content/plugins/gsap-split-text-block
 
 Then install dependencies and build:
 
-```bash
 npm install
 npm run build
-
 
 Finally, activate the plugin via:
 
 WordPress Dashboard → Plugins → Installed Plugins
 
+---
 
 
-Usage
+## Usage
 
 Open the WordPress block editor (Gutenberg).
 
