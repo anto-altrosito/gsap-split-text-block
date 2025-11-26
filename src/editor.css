@@ -1,0 +1,38 @@
+/* ===== editor.css (Editor) ===== */
+
+.gsap-split-animated-wrapper {
+    border: 2px dashed #0073aa;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 0;
+    position: relative;
+    background: rgba(0, 115, 170, 0.02);
+}
+
+.gsap-split-preview-label {
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background: #0073aa;
+    color: white;
+    padding: 2px 12px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.gsap-split-animated-wrapper .block-editor-inner-blocks {
+    margin: 10px 0 0 0;
+}
+
+.gsap-split-animated-wrapper .block-editor-block-list__layout {
+    padding: 0;
+}
+
+/* Stile per il placeholder nell'editor */
+.gsap-split-animated-wrapper .block-editor-default-block-appender {
+    margin: 10px 0;
+}

@@ -1,0 +1,42 @@
+/* ===== style.css (Frontend) ===== */
+
+.gsap-split-animated-wrapper {
+    position: relative;
+    overflow: visible;
+}
+
+/* Previeni flash of unstyled content */
+.gsap-split-animated-wrapper h1,
+.gsap-split-animated-wrapper h2,
+.gsap-split-animated-wrapper h3,
+.gsap-split-animated-wrapper h4,
+.gsap-split-animated-wrapper h5,
+.gsap-split-animated-wrapper h6,
+.gsap-split-animated-wrapper p,
+.gsap-split-animated-wrapper li {
+    opacity: 0;
+}
+
+.gsap-split-animated-wrapper.gsap-split-ready h1,
+.gsap-split-animated-wrapper.gsap-split-ready h2,
+.gsap-split-animated-wrapper.gsap-split-ready h3,
+.gsap-split-animated-wrapper.gsap-split-ready h4,
+.gsap-split-animated-wrapper.gsap-split-ready h5,
+.gsap-split-animated-wrapper.gsap-split-ready h6,
+.gsap-split-animated-wrapper.gsap-split-ready p,
+.gsap-split-animated-wrapper.gsap-split-ready li {
+    opacity: 1;
+}
+
+/* Assicurati che gli elementi split mantengano lo spacing */
+.word,
+.char {
+    display: inline-block;
+    white-space: pre;
+}
+
+.line {
+    overflow: hidden;
+    display: block;
+    /* migliore gestione dello split per righe */
+}

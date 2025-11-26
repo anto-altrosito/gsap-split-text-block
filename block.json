@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "gsap-split/animated-content",
+    "version": "1.0.0",
+    "title": "Contenuto Animato GSAP",
+    "category": "design",
+    "icon": "editor-textcolor",
+    "description": "Wrapper per animazioni split text con GSAP e Split-Type",
+    "keywords": [
+        "animation",
+        "gsap",
+        "split",
+        "text",
+        "animazione"
+    ],
+    "supports": {
+        "html": false,
+        "align": [
+            "wide",
+            "full"
+        ],
+        "spacing": {
+            "margin": true,
+            "padding": true
+        },
+        "color": {
+            "background": true,
+            "text": true
+        }
+    },
+    "attributes": {
+        "splitType": {
+            "type": "string",
+            "default": "chars"
+        },
+        "animationType": {
+            "type": "string",
+            "default": "fadeUp"
+        },
+        "duration": {
+            "type": "number",
+            "default": 0.8
+        },
+        "stagger": {
+            "type": "number",
+            "default": 0.03
+        },
+        "delay": {
+            "type": "number",
+            "default": 0
+        },
+        "useScrollTrigger": {
+            "type": "boolean",
+            "default": true
+        },
+        "triggerStart": {
+            "type": "string",
+            "default": "top 80%"
+        }
+    },
+    "textdomain": "gsap-split-block",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./editor.css",
+    "style": "file:./style.css"
+}
